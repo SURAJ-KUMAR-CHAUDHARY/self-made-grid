@@ -1,0 +1,60 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://th.bing.com/th/id/R.f051f8fc7c6d1a65d70f58edfab0b7ed?rik=1ium4SHaZXWCIA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-2s-wLac3mR8%2fURzHeABeNEI%2fAAAAAAAAB_o%2fFK-Buf5tEaQ%2fs1600%2fanimated_background.gif&ehk=rmv3lTV4rYInTHarrPlOZbmR8RkfeBe99vFkNSFkTic%3d&risl=&pid=ImgRaw&r=0);
+  color: black;
+  display: grid;
+  grid-template-columns: 0.5 500px 500px 500px;
+  grid-template-rows: 1fr 0.5fr;
+  grid-template-areas: "frame mainsection mainsection mainsection" "frame sec1 sec2 sec3";
+  gap: 10px;
+  padding: 20px;
+}
+main #frame {
+  background-image: url(https://images.unsplash.com/photo-1574027615960-bd11c80bb479?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG11c2hyb29tfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500);
+  background-position: center;
+  background-size: cover;
+  grid-area: frame;
+  border-radius: 20px;
+}
+main #mainsection {
+  background-image: url(https://plus.unsplash.com/premium_photo-1677687191269-a95777d5d162?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTd8fGdpcmwlMjBzdGFuZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500);
+  background-position: center;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  grid-area: mainsection;
+  border-radius: 20px;
+}
+main #sec1 {
+  background-image: url(https://plus.unsplash.com/premium_photo-1674917000586-b7564f21540e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aGlsbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500);
+  background-position: center;
+  background-size: cover;
+  grid-area: sec1;
+  border-radius: 20px;
+}
+main #sec2 {
+  background-image: url(https://images.unsplash.com/photo-1508808703020-ef18109db02f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500);
+  background-position: center;
+  background-size: cover;
+  grid-area: sec2;
+  border-radius: 20px;
+}
+main #sec3 {
+  background-image: url(https://images.unsplash.com/photo-1526308422422-6a57b9567eff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHRvdXJpc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500);
+  background-position: center;
+  background-size: cover;
+  grid-area: sec3;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
